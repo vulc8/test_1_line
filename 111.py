@@ -10,7 +10,7 @@ data = {
 }
 
 # 获取 GitHub 文件的原始链接（raw link）
-github_raw_url = "https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/PATH/TO/FILE"
+github_raw_url = "https://github.com/vulc8/test_1_line"
 
 response = requests.get(github_raw_url)
 if response.status_code == 200:
